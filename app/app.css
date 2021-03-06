@@ -1,10 +1,67 @@
-/* Add basic headers, div and body styling */
+/* Style naviation links */
+ul {
+    list-style-type: none;
+    margin:0
+    padding:0
 
+}
 
-h1 {font-size: 20px; font-style:normal;; text-align:center;}
+nav {
+    background-color: white;
+}
 
-h2 {font-size: 15px; font-style:normal;; text-align:left;}
+/* Style First header/Main Title */
+#header {
+    color: hotpink;
+    font-family: 'Akaya Kanadaka', cursive;
+}
 
-div {padding: 10px; margin: 10px}
+/* Style Naviation links on right */
+.links {
+color: black;
+text-decoration: none;
+font-family: 'Akaya Kanadaka', cursive;
+}
 
-body {text-align: left; word-wrap: break-word;}
+.links:hover {
+color: hotpink;
+}
+
+/* Styles body div backround for h1 */
+#bodytextdiv {
+    background-color: black;
+    padding: 10px 20px;
+    margin: 20px 20px;
+    text-align: center;
+    border-radius:10px;
+    width: 200px;
+    margin: auto;
+    display: block;
+
+}
+
+/* Styles h1 for the center text */
+#bodytext {
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  color: white;
+  font-family: 'Akaya Kanadaka', cursive;
+}
+
+/* Styles button */
+button {
+    background-color: white;
+    color: black;
+    display: block;
+    padding: 1_0px 20px;
+    margin: auto;
+    display: block;
+    font-family: 'Akaya Kanadaka', cursive;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
