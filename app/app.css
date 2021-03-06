@@ -1,19 +1,43 @@
 /* Style naviation links */
-ul {
-    list-style-type: none;
-    margin:0
-    padding:0
-
+html {
+    min-width: 600px;
+    height:100%;
 }
+
+/* This creates a reset rule so no padding or margin by default */
+* {
+    padding: 0;
+    margin: 0;
+}
+
 
 nav {
     background-color: white;
+    height: 50px;
+    width: 100%;
 }
 
-/* Style First header/Main Title */
-#header {
+nav div ul {
+    height: 50px;
+    width: 450px;
+    /* margin 0 auto - creates 0 margin top and bottom and automatic fit left-right */
+    /* This command centers the nav */
+    margin: 0 auto;
+  }
+
+nav div ul li {
+    list-style-type: none;
+    width: 150px;
+    float:left;
+    text-align:center;
+}
+
+#colorflipper {
     color: hotpink;
+    text-decoration: none;
     font-family: 'Akaya Kanadaka', cursive;
+    line-height: 50px;
+    font-size: 20px;
 }
 
 /* Style Naviation links on right */
@@ -21,13 +45,22 @@ nav {
 color: black;
 text-decoration: none;
 font-family: 'Akaya Kanadaka', cursive;
+line-height: 50px;
+display:block;
 }
 
 .links:hover {
-color: hotpink;
+background-color: hotpink;
+color:white;
 }
 
-/* Styles body div backround for h1 */
+/* styles main body section */
+.main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Styles body div backround for h2 */
 #bodytextdiv {
     background-color: black;
     padding: 10px 20px;
@@ -37,11 +70,10 @@ color: hotpink;
     width: 200px;
     margin: auto;
     display: block;
-
 }
 
-/* Styles h1 for the center text */
-#bodytext {
+/* Styles Background color: text */
+h2 {
   font-size: 20px;
   font-style: normal;
   text-align: center;

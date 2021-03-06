@@ -12,24 +12,26 @@
 </head>
 <body>
 <!-- Create navigation bar at top -->
-<header>
+<!-- nav tag does same thing as havin a div -->
     <nav>
-        <ul>
-            <li id="header"> Color Flipper</li>
-            <li><a href="" class="links"> Simple</a></li>
-            <li><a href="" class="links"> Hex</a></li>
-        </ul>
+        <div class="nav-center">
+            <ul class="nav-links">
+                <li><a id="colorflipper">Color Flipper</a></li>
+                <li><a href="index.html" class="links">Simple</a></li>
+                <li><a href="index.html" class="links">Hex</a></li>
+            </ul>
+        </div>
     </nav>
-<header>
 
-<div id="bodytextdiv">
-    <span id="bodytext"> Background Color: </span>
-</div>
+    <!-- Main html elements of the body -->
+    <main class="main" id="main">
+        <div class="container" id="bodytextdiv">
+            <h2>Background color: <span id="bodytext"></span></h2>
+        </div>
+        <button type='button' id='button'>Click Me</button>
+    </main>
 
-<div>
-    <button type='button'>Click Me</buton>
-</div>
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
 
