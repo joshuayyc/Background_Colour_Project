@@ -1,7 +1,6 @@
 /* Style naviation links */
 html {
     min-width: 600px;
-    height:100%;
 }
 
 /* This creates a reset rule so no padding or margin by default */
@@ -58,6 +57,9 @@ color:white;
 .main {
     padding-top: 50px;
     padding-bottom: 50px;
+    height:100vh;
+    width:100vw;
+    overflow: auto;
 }
 
 /* Styles body div backround for h2 */
@@ -86,7 +88,7 @@ button {
     background-color: white;
     color: black;
     display: block;
-    padding: 1_0px 20px;
+    padding: 10px 20px;
     margin: auto;
     display: block;
     font-family: 'Akaya Kanadaka', cursive;
