@@ -1,6 +1,9 @@
 // Add Event Handler and reference
 document.querySelector('button').addEventListener('click', handleSubmitForm);
 
+// Presets color code #ffffff on page load
+bodytext.innerHTML = '#ffffff';
+
 // Add Function to handle button click
 // generates random color and uses it to style background and outputs text
 // Change button background color when clicked
